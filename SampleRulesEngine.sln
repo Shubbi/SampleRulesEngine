@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRulesEngine", "SampleRulesEngine\SampleRulesEngine.csproj", "{07B6D6C0-20CD-4BAA-A72F-2416B50FC08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoArpsWithWorkFlow", "DemoArpsWithWorkFlow\DemoArpsWithWorkFlow.csproj", "{93DCDF52-E765-4EFE-A981-39949887516F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWorkflow", "DemoWorkflow\DemoWorkflow.csproj", "{4D70D18E-7350-4CAD-9D9E-F6A32125E949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoArps_Models", "Models\DemoArps_Models.csproj", "{E1011910-8BA2-4311-91EE-A31132C34F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plain", "Plain\Plain.csproj", "{8798E2B2-DC55-481E-AF48-7C4DA2B3A9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoArps_Common", "DemoArps_Common\DemoArps_Common.csproj", "{0DEB3D35-ED36-4CFC-9D0F-5255EE2C41B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoArps_Utils", "DemoArps_Utils\DemoArps_Utils.csproj", "{C39AC873-6279-4563-88FB-CDC9FF47B4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoArpsUsingRulesEngine", "DemoArpsUsingRulesEngine\DemoArpsUsingRulesEngine.csproj", "{4B248670-F31E-42F4-9ACF-5D7F5C187610}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.niaid.nih.gov:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DemoArpsWithWorkFlow\\DemoArpsWithWorkFlow.csproj
+		SccProjectName1 = DemoArpsWithWorkFlow
+		SccLocalPath1 = DemoArpsWithWorkFlow
+		SccProjectUniqueName2 = DemoWorkflow\\DemoWorkflow.csproj
+		SccProjectName2 = DemoWorkflow
+		SccLocalPath2 = DemoWorkflow
+		SccProjectUniqueName3 = SampleRulesEngine\\SampleRulesEngine.csproj
+		SccProjectName3 = SampleRulesEngine
+		SccLocalPath3 = SampleRulesEngine
+		SccProjectUniqueName4 = Models\\DemoArps_Models.csproj
+		SccProjectName4 = Models
+		SccLocalPath4 = Models
+		SccProjectUniqueName5 = Plain\\Plain.csproj
+		SccProjectName5 = Plain
+		SccLocalPath5 = Plain
+		SccProjectUniqueName6 = DemoArps_Common\\DemoArps_Common.csproj
+		SccProjectName6 = DemoArps_Common
+		SccLocalPath6 = DemoArps_Common
+		SccProjectUniqueName7 = DemoArps_Utils\\DemoArps_Utils.csproj
+		SccProjectName7 = DemoArps_Utils
+		SccLocalPath7 = DemoArps_Utils
+		SccProjectUniqueName8 = DemoArpsUsingRulesEngine\\DemoArpsUsingRulesEngine.csproj
+		SccProjectName8 = DemoArpsUsingRulesEngine
+		SccLocalPath8 = DemoArpsUsingRulesEngine
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07B6D6C0-20CD-4BAA-A72F-2416B50FC08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B6D6C0-20CD-4BAA-A72F-2416B50FC08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B6D6C0-20CD-4BAA-A72F-2416B50FC08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B6D6C0-20CD-4BAA-A72F-2416B50FC08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DCDF52-E765-4EFE-A981-39949887516F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DCDF52-E765-4EFE-A981-39949887516F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DCDF52-E765-4EFE-A981-39949887516F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DCDF52-E765-4EFE-A981-39949887516F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D70D18E-7350-4CAD-9D9E-F6A32125E949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D70D18E-7350-4CAD-9D9E-F6A32125E949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D70D18E-7350-4CAD-9D9E-F6A32125E949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D70D18E-7350-4CAD-9D9E-F6A32125E949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1011910-8BA2-4311-91EE-A31132C34F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1011910-8BA2-4311-91EE-A31132C34F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1011910-8BA2-4311-91EE-A31132C34F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1011910-8BA2-4311-91EE-A31132C34F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8798E2B2-DC55-481E-AF48-7C4DA2B3A9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8798E2B2-DC55-481E-AF48-7C4DA2B3A9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8798E2B2-DC55-481E-AF48-7C4DA2B3A9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8798E2B2-DC55-481E-AF48-7C4DA2B3A9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEB3D35-ED36-4CFC-9D0F-5255EE2C41B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB3D35-ED36-4CFC-9D0F-5255EE2C41B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEB3D35-ED36-4CFC-9D0F-5255EE2C41B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEB3D35-ED36-4CFC-9D0F-5255EE2C41B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39AC873-6279-4563-88FB-CDC9FF47B4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39AC873-6279-4563-88FB-CDC9FF47B4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39AC873-6279-4563-88FB-CDC9FF47B4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39AC873-6279-4563-88FB-CDC9FF47B4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B248670-F31E-42F4-9ACF-5D7F5C187610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B248670-F31E-42F4-9ACF-5D7F5C187610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B248670-F31E-42F4-9ACF-5D7F5C187610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B248670-F31E-42F4-9ACF-5D7F5C187610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

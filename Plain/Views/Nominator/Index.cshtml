@@ -1,0 +1,65 @@
+﻿@model DemoArps_Models.ArpsAward
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Nominator</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+        .arps-example {
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 60%;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h4>ArpsAward - Nominator</h4>
+        <hr />
+        <div class="arps-example">
+            @using (Html.BeginForm("Post", "Nominator", FormMethod.Post))
+            {
+                <div class="form-group">
+                    @Html.LabelFor(x => x.FirstName)
+                    @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.LastName)
+                    @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.CashAmount)
+                    @Html.TextBoxFor(x => x.CashAmount, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.InitiatorSso)
+                    @Html.TextBoxFor(x => x.InitiatorSso, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.NominatorSso)
+                    @Html.TextBoxFor(x => x.NominatorSso, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.ServicingAoSso)
+                    @Html.TextBoxFor(x => x.ServicingAoSso, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.DirectorSso)
+                    @Html.TextBoxFor(x => x.DirectorSso, new { @class = "form-control" })
+                </div>
+                <button type="submit" value="Approve" name="button">Approve</button>
+                <button type="submit" value="Reject" name="button">Reject</button>
+                <button type="submit" value="Return" name="button">Return</button>
+            }
+        </div>
+    </div>
+</body>
+</html>
